@@ -118,7 +118,7 @@ a.active {
   border-radius: 50%;
   object-fit: cover;
 }
-.list-of-goals .list-of-goals h2 {
+.list-of-goals  h2 {
   color: white;
   margin-bottom: 25px;
 }
