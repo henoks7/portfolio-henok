@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Henok.Codes</title>
+    <link rel="stylesheet" href="./contact.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="top">
+      <h3 class="logo">Henok.Codes</h3>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <nav class="links">
+        <a href="./index.html" target="_blank">Home</a>
+        <a href="./about.html" target="_blank">About Me</a>
+        <a href="./skills.html" target="_blank">Skills</a>
+        <a href="./projects.html" target="_blank">Projects</a>
+        
+        <a href="./contact.html" target="_blank">Contact Me</a>
+      </nav>
+    </header>
+    <main class="middle">
+      <div class="right-part">
+        <h2>Contact Me</h2>
+        <h3>Send Me a Message</h3>
+        <form action="https://formspree.io/f/xppzjwjv">
+          <div class="form-group">
+            <label for="full-name">Full Name:</label>
+            <input
+              type="text"
+              id="full-name"
+              name="full-name"
+              placeholder="Henok semma"
+              required
+            /><br />
+
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="henoksemma7@gmail.com"
+              required
+            /><br />
+
+            <label for="phone">Phone:</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="0965774289"
+              pattern="[0-9]{10}"
+              required
+            /><br />
+
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject" required>
+              <option value="">Choose a subject</option>
+              <option value="project">Project Inquiry</option>
+              <option value="web-development">Web Development</option>
+              <option value="collaboration">Collaboration</option>
+              <option value="freelance">Freelance Work</option>
+              <option value="internship">Internship Opportunity</option>
+              <option value="feedback">Website Feedback</option>
+              <option value="other">Other</option></select
+            ><br />
+
+            <label for="Reason-for-Contact">Reason for Contact:</label>
+            <select id="Reason-for-Contact" name="Reason-for-Contact" required>
+              <br />
+              <option value="">Choose a reason</option>
+              <option>Project Inquiry</option>
+              <option>Freelane Work</option>
+              <option>Collaboration</option>
+              <option>Internship Opportunity</option>
+              <option>Job Opportunity</option>
+              <option>Website Feedback</option>
+              <option>Other</option></select
+            ><br />
+
+            <label for="Country">Country:</label>
+            <select id="Country" name="Country" required>
+              <br />
+              <option value="">Select your country</option>
+              <option>Ethiopia</option>
+              <option>United States</option>
+              <option>United Kingdom</option>
+              <option>Canada</option>
+              <option>Germany</option>
+              <option>France</option>
+              <option>India</option>
+              <option>Kenya</option>
+              <option>Nigeria</option>
+              <option>South Africa</option>
+              <option>United Arab Emirates</option>
+              <option>Other</option></select
+            ><br />
+            <div class="contact">
+              Prefered Contact Method<br />
+              <div class="choose">
+                <label for="email2">Email</label>
+                <input
+                  type="radio"
+                  name="contact"
+                  id="email2"
+                  value="email"
+                  checked
+                />
+                <label for="phone2">Phone</label>
+                <input type="radio" name="contact" id="phone2" value="phone" />
+                <label for="both">Both</label>
+                <input
+                  type="radio"
+                  name="contact"
+                  id="both"
+                  value="both"
+                /><br />
+              </div>
+            </div>
+            <label for="Message2">Message</label><br />
+            <textarea
+              id="Message2"
+              placeholder="write your message here ..."
+              rows="6"
+              cols="26"
+              required
+            ></textarea
+            ><br />
+            
+            <button type="submit" name="submit" >Send Message</button>
+            <button type="reset" name="reset">Reset</button>
+            
+          </div>
+        </form>
+      </div>
+      <div class="left-part">
+        <section class="get-in-touch">
+    <h2>Get in Touch</h2>
+     <div class="contact-item">
+        <i class='bx bx-envelope'></i>
+
+        <div>
+            <h3>Email</h3>
+            <p>henoksemma7@gmail.com</p>
+        </div>
+    </div>
+
+    <div class="contact-item">
+        <i class='bx bx-map'></i>
+
+        <div>
+            <h3>Location</h3>
+            <p>Addis Ababa, Ethiopia</p>
+        </div>
+    </div>
+
+    <div class="contact-item">
+        <i class='bx bx-phone'></i>
+
+        <div>
+            <h3>Phone</h3>
+            <p>+251 965 774 289</p>
+        </div>
+    </div>
+
+   
+
+</section>
+        <div class="contact-icons">
+    <section class="stay-in-touch">
+    
+
+    <div class="social-icons">
+
+        <a href="#" aria-label="GitHub">
+            <i class='bx bxl-github'></i>
+        </a>
+
+        <a href="#" aria-label="LinkedIn">
+            <i class='bx bxl-linkedin'></i>
+        </a>
+
+        <a href="#" aria-label="Twitter">
+            <i class='bx bxl-twitter'></i>
+        </a>
+
+        <a href="#" aria-label="Instagram">
+            <i class='bx bxl-instagram'></i>
+        </a>
+
+        <a href="#" aria-label="YouTube">
+            <i class='bx bxl-youtube'></i>
+        </a>
+
+    </div>
+</section>
+</div>
+        <h3>Find Me</h3>
+
+        <img src="./image/aa.png" alt="addis ababa photo" />
+      </div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
