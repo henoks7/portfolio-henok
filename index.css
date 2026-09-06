@@ -292,8 +292,9 @@ a.active {
     display: block;
   }
 .list-of-goals {
-  width: 100%;
+  width: 90%;
   height: auto;
+  max-width: 300px;
   margin: 15px 0;
 }
 .all-boxes {
@@ -307,5 +308,8 @@ a.active {
 
   .social-icons {
     justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+    font-wsize:26px;
   }
 }
