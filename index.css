@@ -336,13 +336,22 @@ body {
   border-radius: 5%;
 
   width: 100%;
+  hight: 38%
 
   box-shadow: 0 0 15px rgba(0, 168, 255, 0.15);
 
   padding: 0.5rem 1rem;
   margin: 20px;
 }
-
+.projects img{
+  width:200px;
+  hight:200Px;
+  border-radius: 5%;
+   padding-top: 5px;
+  padding-bottom: 5px;
+   padding-left: 5px;
+  padding-right: 5px;
+}
 .projects h3 {
   font-size: 2.4rem;
   font-weight: 700;
