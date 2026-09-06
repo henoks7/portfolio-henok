@@ -291,9 +291,9 @@ body {
 
   padding: 0.6rem;
 }
-[9/6/2026 12:17 PM] Heni man: .project-boxes img {
-  width: 180px;
-  height: 180px;
+.project-boxes img {
+  width: auto;
+  height: auto;
 
   max-width: 100%;
 
